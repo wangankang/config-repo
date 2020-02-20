@@ -15,4 +15,4 @@ activemq:
         concurrency: 3
 
 
-from: native-cloud-local
+from: native-cloud-new
