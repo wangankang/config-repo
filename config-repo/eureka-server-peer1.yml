@@ -1,0 +1,12 @@
+#京东云: 114.67.72.115
+server:
+  port: 10001
+
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://peer2:10001/eureka/

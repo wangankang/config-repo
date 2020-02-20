@@ -1,0 +1,18 @@
+activemq:
+  broker:
+    maxConnections: 15
+  queue:
+    names:
+      testQueue:
+        names:
+          - testQ1
+          - testQ2
+        concurrency: 1
+      sendCoupon:
+        names:
+          - T1
+          - T2
+        concurrency: 3
+
+
+from: native-cloud-local
