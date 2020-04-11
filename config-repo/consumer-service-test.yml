@@ -7,7 +7,7 @@ activemq:
         names:
           - testQ1
           - testQ2
-        concurrency: 1
+        concurrency: 5
       sendCoupon:
         names:
           - T1
